@@ -1,0 +1,8 @@
+.main-view {
+    margin: 0 0 0 $navbar-size;
+    background-color: $background-color;
+    min-height: calc(100vh - #{$navbar-size});
+    height: 100%;
+    width: calc(100% - #{$navbar-size});
+    position: relative;
+}
